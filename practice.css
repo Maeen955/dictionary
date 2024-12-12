@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aca1ff;
+}
+.container{
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.inputBox{
+    margin: 20px 10px;
+}
+.inputBox input{
+    width:70%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #aca1ff;
+    background-color: #fff;
+}
+.result button{
+    background-color: rgb(252, 250, 250);
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.phonetic{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+@media (max-width:500px){
+    .inputBox{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    .container{
+        background-color: #fff;
+        width: 500px;
+        padding: 10px;
+        border-radius: 15px;
+        
+    }
+    #inputBtn{
+        margin: 8px 0px;
+    }
+}
+
+.inputBox button{
+    font-size: 20px;
+    background-color: #aca1ff;
+    color: #fff;
+    padding: 5px 8px;
+    border: 0;
+    outline: 0;
+    margin: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inputBtn:hover{
+    background-color: #aca1ffd8;
+}
+.result{
+    margin-top: 50px;
+    padding: 20px;
+    display: none;
+}
+.abtn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+.result h1{
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#ad, #phone{
+    font-weight: 300;
+    color: #3331317d;
+}
+#ex{
+    margin: 30px 0px;
+    color: #454548;
+    font-weight: 500;
+}
+#lu{
+    margin-top: 30px;
+    padding-left: 10px;
+    border-left: 4px solid #aca1ff;
+    color: #707073;
+}
